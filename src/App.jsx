@@ -21,7 +21,6 @@ function App() {
         if (!response.ok) throw new Error("Could not fetch data ")
         const data = await response.json()
         setAnime(data.data)
-        console.log(data.data)
         setLoading(false)
 
       } catch (err) {
