@@ -5,6 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base : '/Ani-DB/'
+  base : '/Ani-DB/',
   plugins: [react(), tailwindcss()],
 })
